@@ -132,6 +132,9 @@
         .founders_con {
             margin-bottom: 100px;
         }
+        .footer1{
+            display: none;
+        }
 
 
     }
@@ -201,7 +204,7 @@
                         style="border-radius: 13px 13px 0px 0px ;">
                     <div
                         style="border: 1px solid rgb(86, 86, 86); border-width: 0 1px 1px 1px; border-radius: 0px 0px 13px 13px;">
-                        <h3>Web & App Design</h3>
+                        <h3 class="my-3">Web & App Design</h3>
                         <p style="color: rgb(158, 158, 158);">Pellentesque sed pellentesque felis. Nam tristique ipsum
                             eget
                             magna scelerisque interdum. Fusce at lorem eget lacus congue tristique.</p>
@@ -213,7 +216,7 @@
                         style="border-radius: 13px 13px 0px 0px ;">
                     <div
                         style="border: 1px solid rgb(86, 86, 86); border-width: 0 1px 1px 1px; border-radius: 0px 0px 13px 13px;">
-                        <h3>Web Development</h3>
+                        <h3 class="my-3">Web Development</h3>
                         <p style="color: rgb(158, 158, 158);">Pellentesque sed pellentesque felis. Nam tristique ipsum
                             eget
                             magna scelerisque interdum. Fusce at lorem eget lacus congue tristique.</p>
@@ -225,7 +228,7 @@
                         style="border-radius: 13px 13px 0px 0px ;">
                     <div
                         style="border: 1px solid rgb(86, 86, 86); border-width: 0 1px 1px 1px; border-radius: 0px 0px 13px 13px;">
-                        <h3>Digital Marketing</h3>
+                        <h3 class="my-3">Digital Marketing</h3>
                         <p style="color: rgb(158, 158, 158);">Pellentesque sed pellentesque felis. Nam tristique ipsum
                             eget
                             magna scelerisque interdum. Fusce at lorem eget lacus congue tristique.</p>
@@ -295,7 +298,7 @@
     <hr class="my-5" style="color: white;">
 
     <div class="container mt-5">
-        <h5 class="text-light my-5">Meet With Our Team</h5>
+        <h5 class="text-light my-5 py-4">Meet With Our Team</h5>
         <div class="row team_box_con">
             <div class="team_box text-light text-center col-md-3 line mb-4">
                 <img class="img-fluid team" src="{{ Storage::url('images/team-4.jpg') }}" alt=""
@@ -326,7 +329,7 @@
             </div>
         </div>
 
-        <div class="text-center my-5">
+        <div class="text-center my-5 pb-5">
             <button class="btn">All team Member</button>
         </div>
     </div>
@@ -447,7 +450,7 @@
 
 
     <div class="container-fluid blogs bg-white  py-5">
-        <div class="pt-4 px-5">
+        <div class="pt-4 mb-5 px-5">
             <p style="font-size: xx-large; font-family: 'Courier New', Courier, monospace;">Blogs</p>
         </div>
 
@@ -460,9 +463,9 @@
                     <h2 class="px-5">Gaining Momentum<br> With AI</h2>
                     <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
                         asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
-                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more</h5>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more..</h5>
                 </div>
-                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.5);"
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.6);"
                     src="{{ Storage::url('images/blogs (4).jpg') }}" alt="">
             </div>
 
@@ -473,9 +476,9 @@
                     <h2 class="px-5">Gaining Momentum<br> With AI</h2>
                     <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
                         asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
-                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more</h5>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more..</h5>
                 </div>
-                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.5);"
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.6);"
                     src="{{ Storage::url('images/blogs (1).jpg') }}" alt="">
             </div>
 
@@ -485,9 +488,9 @@
                     <h2 class="px-5">Gaining Momentum<br> With AI</h2>
                     <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
                         asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
-                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more</h5>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more..</h5>
                 </div>
-                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.5);"
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.6);"
                     src="{{ Storage::url('images/blogs (3).jpg') }}" alt="">
             </div>
 
@@ -497,10 +500,22 @@
                     <h2 class="px-5">Gaining Momentum<br> With AI</h2>
                     <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
                         asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
-                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more</h5>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more..</h5>
                 </div>
-                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.5);"
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.6);"
                     src="{{ Storage::url('images/blogs (2).jpg') }}" alt="">
+            </div>
+
+            <div class="blogs_box"
+                style="width: 450px; display: flex; justify-content: center; align-items: flex-end; position: relative;">
+                <div class="text-light" style="position: absolute; z-index: 1;">
+                    <h2 class="px-5">Gaining Momentum<br> With AI</h2>
+                    <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
+                        asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more..</h5>
+                </div>
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.6);"
+                    src="{{ Storage::url('images/blogs (5).jpg') }}" alt="">
             </div>
         </div>
     </div>
@@ -527,71 +542,13 @@
         </div>
     </div>
 
-  <!-- ================================================Footer==================================== -->
-  <div class="footer1 container-fluid" style="background-color: #212121;">
-    <div class="row">
-        <div class="footer1  col-md-3 d-flex align-items-center justify-content-center flex-column py-5 text-light">
-            <h4>Services</h4>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-          </div>
-
-          <div class="footer1  col-md-3 d-flex align-items-center justify-content-center flex-column py-5 text-light">
-            <h4>Services</h4>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-          </div>
-
-          <div class="footer1  col-md-3 d-flex align-items-center justify-content-center flex-column py-5 text-light">
-            <h4>Services</h4>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-          </div>
-
-          <div class="footer1  col-md-3 d-flex align-items-center justify-content-center flex-column py-5 text-light">
-            <h4>Services</h4>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-            <p>Website Dev</p>
-          </div>
-    </div>
-  </div>
-
-  <div class="footer2 container-fluid">
-    <div class="row">
-        <div class="footer_box2 col-md-3 text-light text-center"><a class="navbar-brand text-light fs-5" href="#"><img src="{{ Storage::url('images/logo2.png') }}" width="80px" alt=""></a></div>
-        <div class="footer_box2 col-md-3 text-light text-center  d-flex align-items-center justify-content-around">
-            <i class="fa fa-facebook-f" style="font-size:30px;color:white"></i>
-            <i class="fa fa-youtube-play" style="font-size:30px;color:white"></i>
-            <i class="fa fa-twitter" style="font-size:30px;color:white"></i>
-            <i class="fa fa-instagram" style="font-size:30px;color:white"></i>
-            <i class="fa fa-linkedin" style="font-size:30px;color:white"></i>
-          </div>
-          
-        <div class="footer_box2 col-md-3 text-light text-center  d-flex align-items-center justify-content-around"><p>©2023 TATA Consultancy Services Limited</p></div>
-        <div class="footer_box2 col-md-3 text-light text-center  d-flex align-items-center justify-content-around">Privacy NoticeCookie PolicyDisclaimerSecurity PolicyCalifornia Notice at CollectionCustomize cookies</div>
-    </div>
-  </div>
+  
 
 
 
 
 
-</div>
 
 <x-_footer />
+
+</div>
