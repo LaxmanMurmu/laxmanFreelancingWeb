@@ -66,16 +66,15 @@
     .design_bg {
         background-image: url("{{ Storage::url('images/design.jpg') }}");
         background-color: white;
-        /* Used if the image is unavailable */
-        height: 710px;
-        /* You must set a specified height */
+        height: 650px;
         background-position: center;
-        /* Center the image */
         background-repeat: no-repeat;
-        /* Do not repeat the image */
         background-size: cover;
-        /* Resize the background image to cover the entire container */
     }
+
+    ::-webkit-scrollbar {
+            display: none;
+        }
 
 
     @keyframes zoomIn {
@@ -114,23 +113,26 @@
 
         .para_box {
             left: 0px;
-       
+
         }
 
         .design_para {
             background-color: transparent;
         }
-        .design_para_colorAndStyle{
+
+        .design_para_colorAndStyle {
             font-size: xx-large;
-        color: #6d3131;
-        font-weight: bold;
+            color: #6d3131;
+            font-weight: bold;
         }
-        .row_con{
+
+        .row_con {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .founders_con{
+
+        .founders_con {
             margin-bottom: 100px;
         }
 
@@ -336,7 +338,8 @@
     <!-- ================================================Founder/Co-Founder==================================== -->
 
 
-    <div class="container founders_con my-5" style="border: 2px dotted white; border-radius: 9px; background-color: #272727;">
+    <div class="container founders_con my-5"
+        style="border: 2px dotted white; border-radius: 9px; background-color: #272727;">
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
 
             <div class="carousel-inner my-5">
@@ -442,27 +445,151 @@
         </div>
     </div>
 
-    <!-- ================================================DESIGN ROW==================================== -->
+  
+    <!-- ================================================BLOGS==================================== -->
 
-    <div class=" design_bg_con container-fluid py-5" style="background-color: white;">
+
+    <div class="container-fluid blogs bg-white  py-5">
+        <div class="pt-4 px-5">
+            <p style="font-size: xx-large; font-family: 'Courier New', Courier, monospace;">Blogs</p>
+        </div>
+
+        <div class="row  blog_row_con" style="display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 15px; overflow-x: scroll;">
+
+
+            <div class="blogs_box "
+                style="width: 450px; display: flex; justify-content: center; align-items: flex-end; position: relative;">
+                <div class="text-light" style="position: absolute; z-index: 1;">
+                    <h2 class="px-5">Gaining Momentum<br> With AI</h2>
+                    <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
+                        asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more</h5>
+                </div>
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.5);"
+                    src="{{ Storage::url('images/blogs (4).jpg') }}" alt="">
+            </div>
+
+
+            <div class="blogs_box "
+                style="width: 450px; display: flex; justify-content: center; align-items: flex-end; position: relative;">
+                <div class="text-light" style="position: absolute; z-index: 1;">
+                    <h2 class="px-5">Gaining Momentum<br> With AI</h2>
+                    <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
+                        asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more</h5>
+                </div>
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.5);"
+                    src="{{ Storage::url('images/blogs (1).jpg') }}" alt="">
+            </div>
+
+            <div class="blogs_box"
+                style="width: 450px; display: flex; justify-content: center; align-items: flex-end; position: relative;">
+                <div class="text-light" style="position: absolute; z-index: 1;">
+                    <h2 class="px-5">Gaining Momentum<br> With AI</h2>
+                    <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
+                        asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more</h5>
+                </div>
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.5);"
+                    src="{{ Storage::url('images/blogs (3).jpg') }}" alt="">
+            </div>
+
+            <div class="blogs_box"
+                style="width: 450px; display: flex; justify-content: center; align-items: flex-end; position: relative;">
+                <div class="text-light" style="position: absolute; z-index: 1;">
+                    <h2 class="px-5">Gaining Momentum<br> With AI</h2>
+                    <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur a illo
+                        asperiores voluptatum, recusandae porro quae fugit debitis necessitatibus, magnam beatae,</p>
+                    <h5 class="px-5 pb-2" style="color: white; font-weight: bold;">Read more</h5>
+                </div>
+                <img class="img-fluid" style="border-radius: 4px; object-fit: cover; filter: brightness(0.5);"
+                    src="{{ Storage::url('images/blogs (2).jpg') }}" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+      <!-- ================================================DESIGN ROW==================================== -->
+
+      <div class=" design_bg_con container-fluid pt-5" style="background-color: white;">
         <div class="row  row_con">
             <div class="design_box design_bg col-md-8 "></div>
 
 
             <div class="design_box para_box col-md-4 "
-                style="display: flex; justify-content: center; align-items: center; position: relative; right: 200px;">
+                style="display: flex; justify-content: center; align-items: center; position: relative; right: 230px;">
                 <div class="container design_para ">
                     <h6>WHAT WE DO</h6>
-                    <p class="design_para_colorAndStyle">TCS is an IT services, consulting and business solutions organization that has been partnering
+                    <p class="design_para_colorAndStyle">TCS is an IT services, consulting and business solutions
+                        organization that has been partnering
                         with many of the world’s Largest</p>
                     <p style="font-size: large; font-weight: 500;">Get to Know us</p>
                 </div>
             </div>
-
-
         </div>
     </div>
 
+  <!-- ================================================Footer==================================== -->
+  <div class="footer1 container-fluid" style="background-color: #212121;">
+    <div class="row">
+        <div class="footer1  col-md-3 d-flex align-items-center justify-content-center flex-column py-5 text-light">
+            <h4>Services</h4>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+          </div>
+
+          <div class="footer1  col-md-3 d-flex align-items-center justify-content-center flex-column py-5 text-light">
+            <h4>Services</h4>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+          </div>
+
+          <div class="footer1  col-md-3 d-flex align-items-center justify-content-center flex-column py-5 text-light">
+            <h4>Services</h4>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+          </div>
+
+          <div class="footer1  col-md-3 d-flex align-items-center justify-content-center flex-column py-5 text-light">
+            <h4>Services</h4>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+            <p>Website Dev</p>
+          </div>
+    </div>
+  </div>
+
+  <div class="footer2 container-fluid">
+    <div class="row">
+        <div class="footer_box2 col-md-3 text-light text-center"><a class="navbar-brand text-light fs-5" href="#"><img src="{{ Storage::url('images/logo2.png') }}" width="80px" alt=""></a></div>
+        <div class="footer_box2 col-md-3 text-light text-center  d-flex align-items-center justify-content-around">
+            <i class="fa fa-facebook-f" style="font-size:30px;color:white"></i>
+            <i class="fa fa-youtube-play" style="font-size:30px;color:white"></i>
+            <i class="fa fa-twitter" style="font-size:30px;color:white"></i>
+            <i class="fa fa-instagram" style="font-size:30px;color:white"></i>
+            <i class="fa fa-linkedin" style="font-size:30px;color:white"></i>
+          </div>
+          
+        <div class="footer_box2 col-md-3 text-light text-center  d-flex align-items-center justify-content-around"><p>©2023 TATA Consultancy Services Limited</p></div>
+        <div class="footer_box2 col-md-3 text-light text-center  d-flex align-items-center justify-content-around">Privacy NoticeCookie PolicyDisclaimerSecurity PolicyCalifornia Notice at CollectionCustomize cookies</div>
+    </div>
+  </div>
 
 
 
