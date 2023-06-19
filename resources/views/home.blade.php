@@ -3,9 +3,9 @@
 <x-_navbar />
 
 <style>
-    .line {
-        /* border: 2px solid red; */
-    }
+    /* .line {
+        border: 2px solid red;
+    } */
 
     .sider_down_box {
         background: linear-gradient(to bottom, rgb(255 255 255 / 50%), rgb(0 0 0 / 80%));
@@ -91,9 +91,6 @@
         }
     }
 
-    .para_box {
-        /* border: 2px solid green; */
-    }
 
     .design_para {
         background-color: white;
