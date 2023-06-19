@@ -1,4 +1,3 @@
-<!-- {{ Storage::url('images/slide (1).jpg') }} -->
 <x-_header />
 <x-_navbar />
 

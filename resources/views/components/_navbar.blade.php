@@ -8,10 +8,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto"> <!-- Added ms-auto class here -->
-        <a class="nav-link active text-light fs-5" aria-current="page" href="#">Home</a>
-        <a class="nav-link text-light fs-5" href="#">Features</a>
-        <a class="nav-link text-light fs-5" href="#">Pricing</a>
-        <a class="nav-link disabled text-light fs-5">Disabled</a>
+        <a class="nav-link mx-2 active text-light fs-5" aria-current="page" href="/">Home</a>
+        <a class="nav-link mx-2 text-light fs-5" href="{{ URL::to('portfolio') }}">Portfolio</a>
+        <a class="nav-link mx-2 text-light fs-5" href="#">Projects</a>
+        <a class="nav-link mx-2 disabled text-light fs-5">Service</a>
+        <a class="nav-link mx-2 disabled text-light fs-5">Contact</a>
       </div>
     </div>
   </div>
