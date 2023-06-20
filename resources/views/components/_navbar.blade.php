@@ -2,7 +2,7 @@
 <div style="background-color: black;">
 <nav class="navbar navbar-expand-lg  mode">
   <div class="container-fluid">
-    <a class="navbar-brand text-light fs-5" href="#"><img src="{{ Storage::url('images/logo2.png') }}" width="80px" alt=""></a>
+    <a class="navbar-brand text-light fs-5 p-4" href="#"><img src="{{ Storage::url('images/logo_Asset-1.png') }}" width="50px" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
