@@ -345,7 +345,7 @@
 
                 <div class="carousel-item active"
                     style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                    <img src="{{ Storage::url('images/team-4.jpg') }}" class="  d-block mt-5" alt="..."
+                    <img src="{{ Storage::url('images/1.jpeg') }}" class="  d-block mt-5" alt="..."
                         style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
                     <h3 class="text-light mt-4">Laxman Murmu</h3>
                     <h6 class="text-light mb-4">Founder</h6>

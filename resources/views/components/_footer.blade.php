@@ -1,6 +1,6 @@
 <!-- ================================================Footer==================================== -->
   <!-- footer1 -->
-  <div class="footer1 container-fluid" style="background-color: #212121; background-image: linear-gradient(to bottom, rgb(62, 51, 51), black);">
+  <div class="footer1 container-fluid" style="background-color: #212121; background-image: linear-gradient(to bottom, rgb(125, 125, 125), black);">
     <div class="row">
         <div class="footer1  col-md-3 d-flex align-items-start  px-5 justify-content-center flex-column py-5 text-light">
             <h4>Industries</h4>
@@ -45,7 +45,7 @@
   </div>
 
   <!-- footer2 -->
-  <div class="footer2 container-fluid">
+  <div class="footer2 container-fluid bg-black">
     <div class="row mt-5">
         <div class="footer_box2 my-5 col-md-3 text-light text-center"><a class="navbar-brand text-light fs-5" href="#"><img src="{{ Storage::url('images/logo2.png') }}" width="80px" alt=""></a></div>
         <div class="footer_box2 my-4 col-md-3 text-light text-center  d-flex align-items-center justify-content-around">
