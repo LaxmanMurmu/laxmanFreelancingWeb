@@ -185,7 +185,7 @@
 
     <!-- ============================================================ROW 2 (Achievment )============================ -->
 
-    <div class="portfolio_row2 container-fluid bg-black my-5">
+    <div class="portfolio_row2 container-fluid bg-black my">
         <div class="row">
 
             <div class="col-md-4 text-center text-light p-5">
@@ -213,23 +213,8 @@
 
 
 
-    <!-- ============================================================ROW 3 (LOGOS)============================ -->
 
-    <div class="company_logo container-fluid">
-        <div id="logoContainer" class="row"
-            style="display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 15px; overflow-x: hidden;">
-            <div class="company_logo_box col-md-3"><img class="img-fluid"
-                    src="{{ Storage::url('images/logo_Artboard-2.png') }}" alt="NOON"></div>
-            <div class="company_logo_box col-md-3"><img class="img-fluid"
-                    src="{{ Storage::url('images/logo_Artboard-1.png') }}" alt="NOON"></div>
-            <div class="company_logo_box col-md-3"><img class="img-fluid"
-                    src="{{ Storage::url('images/logo_Artboard-3.png') }}" alt="NOON"></div>
-            <div class="company_logo_box col-md-3"><img class="img-fluid"
-                    src="{{ Storage::url('images/logo_Artboard-2.png') }}" alt="NOON"></div>
-            <div class="company_logo_box col-md-3"><img class="img-fluid"
-                    src="{{ Storage::url('images/logo_Artboard-1.png') }}" alt="NOON"></div>
-        </div>
-    </div>
+
 
 
 
@@ -242,7 +227,7 @@
             <div class="skills_box col-md-4  text-center text-light p-5">
                 <h1>My Skills</h1>
                 <p class="text-start">Vivamus sagittis felis non felis sagittis fringilla.Vivamus sagittis felis non
-                    felis sagittis fringilla. In porttitor sem consequat, molestie leo ac, mollis mauris.</p>
+                    felis sagittis fringilla. In porttitor sem consequat, molestie leo ac, mollis mauris. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique in, voluptatum, adipisci quod doloremque soluta officiis totam earum ipsum sunt voluptate? Suscipit aut ad magni vero facilis, accusantium aliquam omnis.</p>
             </div>
 
 
@@ -283,6 +268,24 @@
         </div>
     </div>
 
+
+        <!-- ============================================================ROW 3 (LOGOS)============================ -->
+
+        <div class="company_logo container-fluid">
+            <div id="logoContainer" class="row"
+                style="display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 15px; overflow-x: hidden;">
+                <div class="company_logo_box col-md-3"><img class="img-fluid"
+                        src="{{ Storage::url('images/logo_Artboard-2.png') }}" alt="NOON"></div>
+                <div class="company_logo_box col-md-3"><img class="img-fluid"
+                        src="{{ Storage::url('images/logo_Artboard-1.png') }}" alt="NOON"></div>
+                <div class="company_logo_box col-md-3"><img class="img-fluid"
+                        src="{{ Storage::url('images/logo_Artboard-3.png') }}" alt="NOON"></div>
+                <div class="company_logo_box col-md-3"><img class="img-fluid"
+                        src="{{ Storage::url('images/logo_Artboard-2.png') }}" alt="NOON"></div>
+                <div class="company_logo_box col-md-3"><img class="img-fluid"
+                        src="{{ Storage::url('images/logo_Artboard-1.png') }}" alt="NOON"></div>
+            </div>
+        </div>
     <!-- ================================================DESIGN ROW==================================== -->
 
     <div class=" design_bg_con container-fluid pt-5 mt-5">
