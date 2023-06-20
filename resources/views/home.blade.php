@@ -350,14 +350,10 @@
                     <h3 class="text-light mt-4">Laxman Murmu</h3>
                     <h6 class="text-light mb-4">Founder</h6>
                     <div class="" style="display: flex; justify-content: space-between; gap: 20px;">
-                        <div class="info"><a href=""><i class="fa fa-whatsapp"
-                                    style="font-size:40px;color:#2e8827;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-telegram"
-                                    style="font-size:40px;color:#c4c4cc;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-envelope"
-                                    style="font-size:40px;color:#e18c8c;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-linkedin"
-                                    style="font-size:40px;color:#2031ab;"></i></a></div>
+                        <div class="info"><a href=""><i class="fas fa-phone-alt" style="font-size:40px;color:#2e8827;"></i></a></div>
+                        <div class="info"><a href=""><i class="fab fa-telegram" style="font-size:40px;color:#c4c4cc;"></i></a></div>
+                        <div class="info"><i class="fas fa-envelope" style="font-size:40px;color:#e18c8c;"></i></a></div>
+                        <div class="info"><a href=""><i class="fab fa-linkedin-in" style="font-size:40px;color:#2031ab;"></i></a></div>
                     </div>
                     <p class="text-light text-center" style="padding: 20px 100px;"> Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Officia eum hic modi dolor quaerat assumenda ipsa repudiandae,
@@ -379,14 +375,10 @@
                     <h3 class="text-light mt-4">Jenifer Lorenz</h3>
                     <h6 class="text-light mb-4">Founder</h6>
                     <div class="" style="display: flex; justify-content: space-between; gap: 20px;">
-                        <div class="info"><a href=""><i class="fa fa-whatsapp"
-                                    style="font-size:40px;color:#2e8827;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-telegram"
-                                    style="font-size:40px;color:#c4c4cc;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-envelope"
-                                    style="font-size:40px;color:#e18c8c;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-linkedin"
-                                    style="font-size:40px;color:#2031ab;"></i></a></div>
+                    <div class="info"><a href=""><i class="fas fa-phone-alt" style="font-size:40px;color:#2e8827;"></i></a></div>
+                        <div class="info"><a href=""><i class="fab fa-telegram" style="font-size:40px;color:#c4c4cc;"></i></a></div>
+                        <div class="info"><i class="fas fa-envelope" style="font-size:40px;color:#e18c8c;"></i></a></div>
+                        <div class="info"><a href=""><i class="fab fa-linkedin-in" style="font-size:40px;color:#2031ab;"></i></a></div>
                     </div>
                     <p class="text-light text-center" style="padding: 20px 100px;"> modi dolor quaerat assumenda ipsa
                         repudiandae, rem, soluta enim expedita blanditiis iusto facere. Unde sapiente eaque ducimus
@@ -407,14 +399,10 @@
                     <h3 class="text-light mt-4">Lerf Herisam</h3>
                     <h6 class="text-light mb-4">Founder</h6>
                     <div class="" style="display: flex; justify-content: space-between; gap: 20px;">
-                        <div class="info"><a href=""><i class="fa fa-whatsapp"
-                                    style="font-size:40px;color:#2e8827;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-telegram"
-                                    style="font-size:40px;color:#c4c4cc;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-envelope"
-                                    style="font-size:40px;color:#e18c8c;"></i></a></div>
-                        <div class="info"><a href=""><i class="fa fa-linkedin"
-                                    style="font-size:40px;color:#2031ab;"></i></a></div>
+                    <div class="info"><a href=""><i class="fas fa-phone-alt" style="font-size:40px;color:#2e8827;"></i></a></div>
+                        <div class="info"><a href=""><i class="fab fa-telegram" style="font-size:40px;color:#c4c4cc;"></i></a></div>
+                        <div class="info"><i class="fas fa-envelope" style="font-size:40px;color:#e18c8c;"></i></a></div>
+                        <div class="info"><a href=""><i class="fab fa-linkedin-in" style="font-size:40px;color:#2031ab;"></i></a></div>
                     </div>
                     <p class="text-light text-center" style="padding: 20px 100px;"> Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Officia eum hic modi dolor quaerat assumenda ipsa repudiandae,

@@ -49,7 +49,7 @@
     }
 
     .design_bg {
-        background-image: url("{{ Storage::url('images/futuristic-leaves-of-a-plant-in-cyberspace-on-a-bl-33JRHLB.jpg') }}");
+        background-image: url("{{ Storage::url('images/caucasian-man-s-portrait-isolated-purple-studio-neon-light.jpg') }}");
         background-color: black;
         height: 650px;
         background-position: center;

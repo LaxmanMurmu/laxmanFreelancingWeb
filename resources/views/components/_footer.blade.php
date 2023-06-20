@@ -50,11 +50,12 @@
     <div class="row mt-5">
         <div class="footer_box2 my-5 col-md-3 text-light text-center"><a class="navbar-brand text-light fs-5" href="#"><img src="{{ Storage::url('images/logo_Asset-1.png') }}" width="50px" alt=""></a></div>
         <div class="footer_box2 my-4 col-md-3 text-light text-center  d-flex align-items-center justify-content-around">
-            <i class="fa fa-facebook-f" style="font-size:30px;color:white"></i>
-            <i class="fa fa-youtube-play" style="font-size:30px;color:white"></i>
-            <i class="fa fa-twitter" style="font-size:30px;color:white"></i>
-            <i class="fa fa-instagram" style="font-size:30px;color:white"></i>
-            <i class="fa fa-linkedin" style="font-size:30px;color:white"></i>
+        <i class="fab fa-facebook-f" style="font-size:30px;color:white"></i>
+<i class="fab fa-youtube" style="font-size:30px;color:white"></i>
+<i class="fab fa-twitter" style="font-size:30px;color:white"></i>
+<i class="fab fa-instagram" style="font-size:30px;color:white"></i>
+<i class="fab fa-linkedin-in" style="font-size:30px;color:white"></i>
+
           </div>
           
         <div class="footer_box2 my-3 col-md-3 text-light text-center  d-flex align-items-center justify-content-around"><p>©2023 TATA Consultancy Services Limited</p></div>
