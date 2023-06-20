@@ -22,3 +22,7 @@ Route::get('/', function () {
 // });
 
 Route::view("portfolio", "portfolio");
+
+Route::view("project", "project");
+
+Route::view("contact", "contact");

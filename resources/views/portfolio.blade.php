@@ -122,7 +122,7 @@
 
     <!-- ============================================================Heading background============================ -->
     <div class="head_background_image container-fluid d-flex justify-content-center align-items-center">
-        <h1 style="font-family: 'Archivo Black', sans-serif; font-weight: bolder;" class=" text-center">Portfolio</h1>
+        <h1 style="font-family: 'Archivo Black', sans-serif; font-size: 60px; font-weight: bold;" class="text-center">Portfolio</h1>
     </div>
 
     <!-- ============================================================ROW 1 (PROFILE IMAGE)============================ -->
@@ -225,44 +225,59 @@
     <div class="skills_con container-fluid bg-black">
         <div class="row">
             <div class="skills_box col-md-4  text-center text-light p-5">
-                <h1>My Skills</h1>
-                <p class="text-start">Vivamus sagittis felis non felis sagittis fringilla.Vivamus sagittis felis non
+                <h1 class="mb-4">My Skills</h1>
+                <p class="text-start">Vivamus sagittis felis non felis sagittis fringilla.Vivamus sagittis felis non elis sagittis fringilla.Vivamus sagittis felis non elis sagittis fringilla.Vivamus 
                     felis sagittis fringilla. In porttitor sem consequat, molestie leo ac, mollis mauris. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique in, voluptatum, adipisci quod doloremque soluta officiis totam earum ipsum sunt voluptate? Suscipit aut ad magni vero facilis, accusantium aliquam omnis.</p>
             </div>
 
 
             <div class="skills_box col-md-4  text-light p-5">
-                <h2>Design</h2>
+                <h2 class="mb-4">Design</h2>
+                
+                <p class="mb-0">Graphic Design</p>
+                <div class="progress mb-3 bg-dark" role="progressbar" aria-label="Info example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-light text-dark" style="width: 20%">20%</div>
+                  </div>
 
-                <p class="">Graphic Design</p>
-                <div class="col-md-12" style="background-color: gray; border-radius: 22px;">
-                    <hr class="py-1">
-                </div>
-                <p class="">Graphic Design</p>
-                <div class="col-md-12" style="background-color: gray; border-radius: 22px;">
-                    <hr class="py-1">
-                </div>
-                <p class="">Graphic Design</p>
-                <div class="col-md-12" style="background-color: gray; border-radius: 22px;">
-                    <hr class="py-1">
-                </div>
+                  <p class="mb-0">Graphic Design</p>
+                  <div class="progress mb-3 bg-dark" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-light text-dark" style="width: 50%">50%</div>
+                  </div>
+
+                  <p class="mb-0">Graphic Design</p>
+                  <div class="progress mb-3 bg-dark" role="progressbar" aria-label="Info example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-light text-dark" style="width: 75%">75%</div>
+                  </div>
+
+                  <p class="mb-0">Graphic Design</p>
+                  <div class="progress mb-3 bg-dark" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-light" style="width: 100%">100%</div>
+                  </div>
             </div>
 
+            
             <div class="skills_box col-md-4  text-light p-5">
-                <h2>Design</h2>
+                <h2 class="mb-4">Design</h2>
+                
+                <p class="mb-0">Graphic Design</p>
+                <div class="progress mb-3 bg-dark" role="progressbar" aria-label="Info example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-light text-dark" style="width: 20%">20%</div>
+                  </div>
 
-                <p class="">Graphic Design</p>
-                <div class="col-md-12" style="background-color: gray; -radius: 22px;">
-                    <hr class="py-1">
-                </div>
-                <p class="">Graphic Design</p>
-                <div class="col-md-12" style="background-color: gray; border-radius: 22px;">
-                    <hr class="py-1">
-                </div>
-                <p class="">Graphic Design</p>
-                <div class="col-md-12" style="background-color: gray; border-radius: 22px;">
-                    <hr class="py-1">
-                </div>
+                  <p class="mb-0">Graphic Design</p>
+                  <div class="progress mb-3 bg-dark" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-light text-dark" style="width: 50%">50%</div>
+                  </div>
+
+                  <p class="mb-0">Graphic Design</p>
+                  <div class="progress mb-3 bg-dark" role="progressbar" aria-label="Info example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-light text-dark" style="width: 75%">75%</div>
+                  </div>
+
+                  <p class="mb-0">Graphic Design</p>
+                  <div class="progress mb-3 bg-dark" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-light" style="width: 100%">100%</div>
+                  </div>
             </div>
 
         </div>
@@ -303,6 +318,7 @@
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 
                         <h6 class="text-light">LETS MAKE A CALL</h6>
+                        <div><button class="text-light bg-black mt-2" style="border: 1px solid white; padding: 10px 40px;">CALL ME NOW</button></div>
                 </div>
             </div>
 

@@ -6,6 +6,7 @@
         border: 2px solid red;
     } */
 
+    
     .sider_down_box {
         background: linear-gradient(to bottom, rgb(255 255 255 / 50%), rgb(0 0 0 / 80%));
     }

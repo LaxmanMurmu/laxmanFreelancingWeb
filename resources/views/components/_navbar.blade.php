@@ -10,9 +10,9 @@
       <div class="navbar-nav ms-auto"> <!-- Added ms-auto class here -->
         <a class="nav-link mx-2 active text-light fs-5" aria-current="page" href="/">Home</a>
         <a class="nav-link mx-2 text-light fs-5" href="{{ URL::to('portfolio') }}">Portfolio</a>
-        <a class="nav-link mx-2 text-light fs-5" href="#">Projects</a>
-        <a class="nav-link mx-2 disabled text-light fs-5">Service</a>
-        <a class="nav-link mx-2 disabled text-light fs-5">Contact</a>
+        <a class="nav-link mx-2 text-light fs-5" href="{{ URL::to('project') }}">Projects</a>
+        <a class="nav-link mx-2 text-light fs-5" href="{{ URL::to('service') }}">Service</a>
+        <a class="nav-link mx-2 text-light fs-5" href="{{ URL::to('contact') }}">Contact</a>
       </div>
     </div>
   </div>
