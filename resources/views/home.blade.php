@@ -25,7 +25,7 @@
         object-fit: cover;
     }
 
-    .btn {
+    .my_btn {
         background: linear-gradient(to right, #16291a, #0cc831);
         color: white;
         padding: 17px 43px;
@@ -160,7 +160,7 @@
                         <div class="carousel-caption d-none d-md-block mb-5">
                             <h1>First slide label</h1>
                             <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-success">Learn more</button>
+                            <button class="btn my_btn btn-success">Learn more</button>
                         </div>
                     </div>
                     <div class="carousel-item ">
@@ -168,7 +168,7 @@
                         <div class="carousel-caption d-none d-md-block mb-5">
                             <h1>First slide label</h1>
                             <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-success">Learn more</button>
+                            <button class="btn my_btn btn-success">Learn more</button>
                         </div>
                     </div>
                     <div class="carousel-item ">
@@ -176,7 +176,7 @@
                         <div class="carousel-caption d-none d-md-block mb-5">
                             <h1>First slide label</h1>
                             <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-success">Learn more</button>
+                            <button class="btn my_btn btn-success">Learn more</button>
                         </div>
                     </div>
                 </div>
@@ -330,7 +330,7 @@
         </div>
 
         <div class="text-center my-5 pb-5">
-            <button class="btn">All team Member</button>
+            <button class="btn my_btn">All team Member</button>
         </div>
     </div>
 

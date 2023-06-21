@@ -108,11 +108,12 @@
 
     <!-- ============================================================FORM MESSAGE============================ -->
 
-    <div class="contact_form container-fluid border my-5 p-5"
-        style=" background: linear-gradient(to right, #000000, #8e0095);">
+    <div class="contact_form container-fluid border mt-5 p-5"
+        style=" background: linear-gradient(to top, #e3dede, #f5f4f4);">
 
         <div class="row">
 
+            
             <div class="contact_form_box col-md-2"></div>
 
             <div class="contact_form_box col-md-8">
