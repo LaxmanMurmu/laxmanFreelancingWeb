@@ -21,11 +21,11 @@
     }
 
     .my_btn {
-        background: linear-gradient(to right, #16291a, #0cc831);
+        background: linear-gradient(to right, #ff37c6, #25e2ff);
         color: white;
         padding: 17px 43px;
         border: none;
-        border-radius: 35px;
+        border-radius: 0px;
         cursor: pointer;
     }
 
@@ -41,6 +41,18 @@
         z-index: -1;
         top: 0px;
     }
+    .service_topic_box:hover{
+        background: linear-gradient(to bottom, #ff37c6, #25e2ff);
+    }
+
+    .progress_box{
+       color: white;
+    }
+    .progress_box:hover{
+        background: linear-gradient(to bottom, #ffffff, #ffffff);
+        color: black;
+    }
+    
 </style>
 <div class="back_image_con container-fluid">
 </div>
@@ -63,8 +75,55 @@
         <div class="service_row1_con py-5 container">
             <div class="row">
 
+                <div class="col-md-4" style="height: 350px;">
+                    <div class="service_topic_box col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
+                        <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
+                        <h3 class="my-2">Design</h3>
+                        <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit.asew Ipsa omnis
+                            dignissimos lorem Lorem ipsum... Kamal </p>
+                        <h6 class="my-3 more_box">
+                            <p class="More_text">More ↓</p>
+                            <p class="myText">laxman doloribus iste error, eligendi maiores itaque ab voluptas
+                                consectetur
+                                debitis </p>
+                        </h6>
+                    </div>
+                </div>
+
+
                 <div class=" col-md-4" style="height: 350px;">
-                    <div class="col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
+                    <div class="service_topic_box col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
+                        <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
+                        <h3 class="my-2">Design</h3>
+                        <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis
+                            lorem Lorem ipsum... Kamal </p>
+                        <h6 class="my-3 more_box">
+                            <p class="More_text">More ↓</p>
+                            <p class="myText">laxman doloribus iste error, eligendi maiores itaque ab voluptas
+                                consectetur
+                                debitis </p>
+                        </h6>
+                    </div>
+                </div>
+
+                <div class=" col-md-4" style="height: 350px;">
+                    <div class="service_topic_box col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
+                        <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
+                        <h3 class="my-2">Design</h3>
+                        <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis
+                            lorem Lorem ipsum... Kamal </p>
+                        <h6 class="my-3 more_box">
+                            <p class="More_text">More ↓</p>
+                            <p class="myText">laxman doloribus iste error, eligendi maiores itaque ab voluptas
+                                consectetur
+                                debitis </p>
+                        </h6>
+                    </div>
+                </div>
+
+
+                <div class=" col-md-4" style="height: 350px;">
+                    <div class="service_topic_box col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
                         <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
                         <h3 class="my-2">Design</h3>
                         <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis
@@ -80,7 +139,7 @@
 
 
                 <div class=" col-md-4" style="height: 350px;">
-                    <div class="col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
+                    <div class="service_topic_box col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
                         <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
                         <h3 class="my-2">Design</h3>
                         <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis
@@ -95,54 +154,7 @@
                 </div>
 
                 <div class=" col-md-4" style="height: 350px;">
-                    <div class="col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
-                        <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
-                        <h3 class="my-2">Design</h3>
-                        <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis
-                            dignissimos lorem Lorem ipsum... Kamal </p>
-                        <h6 class="my-3 more_box">
-                            <p class="More_text">More ↓</p>
-                            <p class="myText">laxman doloribus iste error, eligendi maiores itaque ab voluptas
-                                consectetur
-                                debitis </p>
-                        </h6>
-                    </div>
-                </div>
-
-
-                <div class=" col-md-4" style="height: 350px;">
-                    <div class="col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
-                        <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
-                        <h3 class="my-2">Design</h3>
-                        <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis
-                            dignissimos lorem Lorem ipsum... Kamal </p>
-                        <h6 class="my-3 more_box">
-                            <p class="More_text">More ↓</p>
-                            <p class="myText">laxman doloribus iste error, eligendi maiores itaque ab voluptas
-                                consectetur
-                                debitis </p>
-                        </h6>
-                    </div>
-                </div>
-
-
-                <div class=" col-md-4" style="height: 350px;">
-                    <div class="col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
-                        <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
-                        <h3 class="my-2">Design</h3>
-                        <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis
-                            dignissimos lorem Lorem ipsum... Kamal </p>
-                        <h6 class="my-3 more_box">
-                            <p class="More_text">More ↓</p>
-                            <p class="myText">laxman doloribus iste error, eligendi maiores itaque ab voluptas
-                                consectetur
-                                debitis </p>
-                        </h6>
-                    </div>
-                </div>
-
-                <div class=" col-md-4" style="height: 350px;">
-                    <div class="col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
+                    <div class="service_topic_box col-md-12 text-center bg-black text-light p-5" style="border: 22px solid white;">
                         <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
                         <h3 class="my-2">Design</h3>
                         <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis
@@ -168,15 +180,16 @@
     <div class="container-fluid progess_work_con py-5"
         style="background: linear-gradient(to bottom, transparent, rgb(0, 0, 0));">
         <div class="row">
-            <div class="col-md-12 progress_work_box text-center text-light">
-                <p class="pt-5" style="font-size: larger;">WORK PROCESS</p>
+            
+            <div class="col-md-12 progress_work_box text-center">
+                <p class="pt-5 text-light" style="font-size: larger;">WORK PROCESS</p>
             </div>
-            <div class="col-md-12 progress_work_box text-center text-light">
-                <p class="pb-4" style="font-size: xx-large; font-weight: bolder;">My Stages In A Project</p>
+            <div class="col-md-12 progress_work_box text-center">
+                <p class="pb-4 text-light" style="font-size: xx-large; font-weight: bolder;">My Stages In A Project</p>
             </div>
 
             <div class="col-md-3 mb-4">
-                <div class="col-md-12 text-center bg-black text-light px-5 py-5">
+                <div class="progress_box col-md-12 text-center bg-black px-5 py-5">
                     <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
                     <h3 class="my-2">Design</h3>
                     <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis dignissimos
@@ -190,7 +203,7 @@
             </div>
 
             <div class="col-md-3 mb-4">
-                <div class="col-md-12 text-center bg-black text-light px-5 py-5">
+                <div class="progress_box col-md-12 text-center bg-black px-5 py-5">
                     <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
                     <h3 class="my-2">Design</h3>
                     <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis dignissimos
@@ -204,7 +217,7 @@
             </div>
 
             <div class="col-md-3 mb-4">
-                <div class="col-md-12 text-center bg-black text-light px-5 py-5">
+                <div class="progress_box col-md-12 text-center bg-black px-5 py-5">
                     <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
                     <h3 class="my-2">Design</h3>
                     <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis dignissimos
@@ -218,7 +231,7 @@
             </div>
 
             <div class="col-md-3 mb-4">
-                <div class="col-md-12 text-center bg-black text-light px-5 py-5">
+                <div class="progress_box col-md-12 text-center bg-black px-5 py-5">
                     <i class="fa-solid fa-paintbrush mb-2" style="font-size: 30px;"></i>
                     <h3 class="my-2">Design</h3>
                     <p class="text_cut">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis dignissimos
@@ -298,7 +311,89 @@
 
 
 
+    <!-- ============================================================(SKILS)============================ -->
 
+    <div class="bg-white">
+        <div class="price_con bg-white container" style="display: flex; justify-content: center;">
+            <div class="row" style="width: 1200px;">
+
+                <div class="text-center pt-5">
+                    <p>PRICING</p>
+                </div>
+                <div class="text-center pb-5">
+                    <h1>Choose The Pricing Plan</h1>
+                </div>
+
+                <div class="col-md-4 price_box px-3 mb-5">
+                    <div class="text-center bg-black text-light">
+                        <button class="btn my_btn mt-5">Basic</button>
+                        <h1 class="my-3" style="font-weight: bold;">$20.99</h1>
+                        <p class="mb-4">Per Project</p>
+                        <hr>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div class="text-start col-md-7">
+                                <p style="font-weight: bold; font-size: large;">✔ Consultation</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Development</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Revision</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Maintenance</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Guarantee</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <button class="btn mt-3 bg-light mb-5"
+                            style="border: 1px solid white; border-radius: 0px; padding: 15px 44px;">Basic ➤</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-4 price_box px-3 mb-5">
+                    <div class="text-center bg-black text-light" style=" background: linear-gradient(#ff65d3, #25e2ff); transform: scale(1.06);">
+                        <button class="btn mt-3 bg-light mt-5" style="border: 1px solid white; border-radius: 0px; padding: 15px 44px;">Medium</button>
+                        <h1 class="my-3" style="font-weight: bold;">$20.99</h1>
+                        <p class="mb-4">Per Project</p>
+                        <hr>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div class="text-start col-md-7">
+                                <p style="font-weight: bold; font-size: large;">✔ Consultation</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Development</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Revision</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Maintenance</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Guarantee</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <button class="btn mt-3 bg-light mb-5"
+                            style="border: 1px solid white; border-radius: 0px; padding: 15px 44px;">Basic ➤</button>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 price_box px-3 mb-5">
+                    <div class="text-center bg-black text-light">
+                        <button class="btn my_btn mt-5">Expert</button>
+                        <h1 class="my-3" style="font-weight: bold;">$20.99</h1>
+                        <p class="mb-4">Per Project</p>
+                        <hr>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div class="text-start col-md-7">
+                                <p style="font-weight: bold; font-size: large;">✔ Consultation</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Development</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Revision</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Maintenance</p>
+                                <p style="font-weight: bold; font-size: large;">✔ Guarantee</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <button class="btn mt-3 bg-light mb-5"
+                            style="border: 1px solid white; border-radius: 0px; padding: 15px 44px;">Basic ➤</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
 
